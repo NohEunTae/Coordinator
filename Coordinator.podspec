@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/NohEunTae/Coordinator'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'NohEunTae' => 'nohet@brandi.co.kr' }
+  s.author           = { 'NohEunTae' => 'dmsxoeldk@naver.com' }
   s.source           = { :git => 'https://github.com/NohEunTae/Coordinator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

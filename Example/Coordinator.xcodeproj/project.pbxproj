@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		492B7EF925A856ED00B0F121 /* ProductCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492B7EF825A856ED00B0F121 /* ProductCoordinator.swift */; };
 		5C489B731BA88D4552497F0F /* Pods_Coordinator_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19A5BBDFDDA4F523E183091 /* Pods_Coordinator_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		20363B6E9548F0B897152AEB /* Pods-Coordinator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coordinator_Example.debug.xcconfig"; path = "Target Support Files/Pods-Coordinator_Example/Pods-Coordinator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2240C8B3CF5870EE0DBB0A67 /* Pods-Coordinator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coordinator_Example.release.xcconfig"; path = "Target Support Files/Pods-Coordinator_Example/Pods-Coordinator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		492B7EF825A856ED00B0F121 /* ProductCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCoordinator.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Coordinator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,13 +42,13 @@
 		607FACE51AFB9204008FA782 /* Coordinator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Coordinator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		69EB2A9756BB15A0444ADCDA /* Coordinator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Coordinator.podspec; path = ../Coordinator.podspec; sourceTree = "<group>"; };
-		7998D3C49FF36DFDD1D29EA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		69EB2A9756BB15A0444ADCDA /* Coordinator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Coordinator.podspec; path = ../Coordinator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7998D3C49FF36DFDD1D29EA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A330CCD8CA0B0D80FB289E23 /* Pods-Coordinator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coordinator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Coordinator_Tests/Pods-Coordinator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CABCF0A102D5AE5ECCAB3644 /* Pods_Coordinator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coordinator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6EDB485D455838C9985498 /* Pods-Coordinator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coordinator_Tests.release.xcconfig"; path = "Target Support Files/Pods-Coordinator_Tests/Pods-Coordinator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E19A5BBDFDDA4F523E183091 /* Pods_Coordinator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coordinator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2707E803BA86B1C17D8C2CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F2707E803BA86B1C17D8C2CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,6 @@
 				A330CCD8CA0B0D80FB289E23 /* Pods-Coordinator_Tests.debug.xcconfig */,
 				CC6EDB485D455838C9985498 /* Pods-Coordinator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -114,6 +115,7 @@
 		607FACD21AFB9204008FA782 /* Example for Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				492B7EF825A856ED00B0F121 /* ProductCoordinator.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -213,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5RRG82P7BR;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -333,6 +337,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				492B7EF925A856ED00B0F121 /* ProductCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +483,7 @@
 			baseConfigurationReference = 20363B6E9548F0B897152AEB /* Pods-Coordinator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5RRG82P7BR;
 				INFOPLIST_FILE = Coordinator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +499,7 @@
 			baseConfigurationReference = 2240C8B3CF5870EE0DBB0A67 /* Pods-Coordinator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5RRG82P7BR;
 				INFOPLIST_FILE = Coordinator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

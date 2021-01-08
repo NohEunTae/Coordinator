@@ -12,12 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            ProductCoordinator(source: self)
+                .destination(.detail(id: 123))
+                .destination(options: .wrapping(), .modalPresentationStyle(.fullScreen))
+                .present()
+        }        
     }
 
 }
